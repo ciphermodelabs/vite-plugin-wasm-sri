@@ -12,7 +12,7 @@ describe("WASM parser", () => {
     const filename = require.resolve("@syntect/wasm/dist/syntect_bg.wasm");
     const result = await parseWasm(filename);
     expect(result).toStrictEqual({
-      "digest": "\"sha384-3whpiQaJDU3UFPTw4GYjJHLMT2Euv7EnDkgREHj9VtILF3Rk5Tua7tYCuFB1cLiR\"",
+      digest: "\"sha384-3whpiQaJDU3UFPTw4GYjJHLMT2Euv7EnDkgREHj9VtILF3Rk5Tua7tYCuFB1cLiR\"",
       imports: [{ from: "./syntect_bg.js", names: ["__wbindgen_throw"] }],
       exports: [
         "memory",
