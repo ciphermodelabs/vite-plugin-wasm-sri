@@ -15,7 +15,7 @@
       "default": "./exports/require.cjs"
     }
   },
-  "repository": "https://github.com/ciphermode/vite-plugin-wasm-sri",
+  "repository": "https://github.com/ciphermodelabs/vite-plugin-wasm-sri",
   "author": "Javad <javad@ciphermode.com>",
   "license": "MIT",
   "keywords": [
